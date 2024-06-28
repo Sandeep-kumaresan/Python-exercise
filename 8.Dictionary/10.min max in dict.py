@@ -8,3 +8,4 @@ for i in lis:
         minitem = i
 print(maxitem)
 print(minitem)
+print("success")
