@@ -1,9 +1,10 @@
-"""Create a parent class called Polygon with an abstract method called
+"""
+Create a parent class called Polygon with an abstract method called
 no_of_sides. Create Triangle and Pentagon Sub classes and implement the
 abstract methods
 """
-from abc import ABC
-class Polygon(ABC):
+
+class Polygon():
     def no_of_sides(self):
         pass
 class Triangle(Polygon):
