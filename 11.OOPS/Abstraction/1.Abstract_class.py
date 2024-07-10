@@ -1,22 +1,21 @@
+"""Create a parent class called Polygon with an abstract method called
+no_of_sides. Create Triangle and Pentagon Sub classes and implement the
+abstract methods
+"""
 from abc import ABC
-class Car(ABC):
-    def mileage(self):
+class Polygon(ABC):
+    def no_of_sides(self):
         pass
-class Suzuki(Car):
-    def mileage(self):
-        print("Mileage is 35kmpl")
+class Triangle(Polygon):
+    def no_of_sides(self):
+        print("3 sides")
 
-class Honda(Car):
-    def mileage(self):
-        print("Mileage is 40kmpl")
+class Pentagon(Polygon):
+    def no_of_sides(self):
+        print("5 sides")
 
-class TVS(Car):
-    def mileage(self):
-        print("Mileage is 45kmpl")
 
-s=Suzuki()
-s.mileage()
-h=Honda()
-h.mileage()
-t=TVS()
-t.mileage()
+t=Triangle()
+t.no_of_sides()
+p=Pentagon()
+p.no_of_sides()
