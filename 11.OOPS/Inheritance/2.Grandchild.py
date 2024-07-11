@@ -1,3 +1,6 @@
+"""Create a parent class A, Child class B, Grand Child class C. 
+Use Child C object to access the instance variable and methods of 
+class A"""
 class parent:
     def __init__(self,name,roll):
         self.name=name
