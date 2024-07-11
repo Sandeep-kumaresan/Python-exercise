@@ -1,3 +1,5 @@
+"""Create a class A and class B. Create class C that inherits from class A and B. 
+use object of class C to inherit methods from both class A and class B"""
 class parent:
     def __init__(self,name,age):
         self.name=name
