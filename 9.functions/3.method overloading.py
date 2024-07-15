@@ -1,3 +1,5 @@
+"""Implement method overloading for a "print" method that can
+print different types of data such as int, double, and String."""
 class Printer:
     def print(self, value):
         if isinstance(value, int):
